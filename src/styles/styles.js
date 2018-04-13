@@ -8,6 +8,9 @@ export default {
         text: {
             display: "inline-flex",
             fontSize: 15
+        },
+        icon: {
+            margin: 5
         }
     },
     secondLayout: {
