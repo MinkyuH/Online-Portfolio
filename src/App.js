@@ -13,6 +13,7 @@ class App extends Component {
                 <SecondLayer/>
                 <ThirdLayer/>
                 <FourthLayer/>
+                <footer><span>Minkyu Ham &#169; {(new Date()).getFullYear()}</span></footer>
             </div>
         );
     }

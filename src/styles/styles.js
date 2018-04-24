@@ -1,51 +1,63 @@
 export default {
     topLayer: {
-        backgroundColor: "grey",
+        backgroundColor: "#8AC5E2",
         img: {
             width: 70,
             height: 70
         },
         text: {
-            display: "inline-flex",
-            fontSize: 15
+            display: "inline-flex"
         },
         icon: {
             margin: 5
         }
     },
     secondLayout: {
-        backgroundColor: "white",
+        backgroundColor: "#FFE9C9",
         img: { 
             width: 90,
             height: 100
         },
+        alt: {
+            fontFamily: "Nunito"
+        },
         bodyText: {
-            fontSize: 15
+            textAlign: "justify",
+            margin: "0 20px",
+            paddingBottom: 15
+        },
+        heading: {
+            paddingTop: 15
         }
     },
     thirdLayout: {
-        backgroundColor: "grey",
         container: {
             display: "inline-block",
             width: "33%",
             verticalAlign: "text-top"
         },
-        text: {
-            fontSize: 15
+        heading: {
+            paddingTop: 15
         }
     },
     fourthLayout:{
-        backgroundColor: "white",
+        backgroundColor: "#FFD6D6",
+        paddingBottom: 1,
         textAlign: "center",
         container: {
             display: "inline-block",
-            width: "29%",
+            width: "46%",
             margin: "2%",
             verticalAlign: "text-top"
         },
         img: {
             width: "80%",
             maxWidth: "initial"
+        },
+        youtube: {
+            width: "96%",
+            margin: "2%",
+            padding: "1px 0"
         }
     }
 }
