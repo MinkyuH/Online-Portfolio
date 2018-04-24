@@ -8,7 +8,7 @@ export default () => (
     <div id="top-layer" style={styles.topLayer}>
         <img src={logo} alt="logo" style={styles.topLayer.img} />
         <div>
-            <IconButton href="https://www.google.co.nz" tooltip = "GitHub">
+            <IconButton href="https://github.com/minkyuh" tooltip = "GitHub">
                 <GitHubLogo style = {styles.topLayer.icon}/>
             </IconButton>
             <IconButton href="https://www.google.co.nz" tooltip = "LinkedIn">

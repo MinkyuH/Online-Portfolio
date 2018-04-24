@@ -44,8 +44,8 @@ export default {
             verticalAlign: "text-top"
         },
         img: {
-            width: 70,
-            height: 70
+            width: "80%",
+            maxWidth: "initial"
         }
     }
 }
