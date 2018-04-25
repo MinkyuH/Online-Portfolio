@@ -22,7 +22,6 @@ export default () => (
         </div>
         <div style={styles.thirdLayout.container}>
             <h3>Data</h3>
-            <p>Microsoft Azure</p>
             <p>T-SQL</p>
             <p>MySQL</p>
             <p>NoSQL</p>

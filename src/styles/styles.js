@@ -1,5 +1,5 @@
 export default {
-    topLayer: {
+    firstLayout: {
         backgroundColor: "#8AC5E2",
         img: {
             width: 70,
@@ -14,10 +14,6 @@ export default {
     },
     secondLayout: {
         backgroundColor: "#FFE9C9",
-        img: { 
-            width: 90,
-            height: 100
-        },
         alt: {
             fontFamily: "Nunito"
         },
@@ -27,7 +23,7 @@ export default {
             paddingBottom: 15
         },
         heading: {
-            paddingTop: 15
+            padding: "15px 0"
         }
     },
     thirdLayout: {
