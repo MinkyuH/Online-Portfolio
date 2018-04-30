@@ -1,8 +1,11 @@
 import React from 'react';
+import Avatar from 'material-ui/Avatar';
+import Code from 'material-ui/svg-icons/action/code';
 import styles from '../styles/styles';
 
 export default () => (
     <div id="ThirdLayer" style={styles.thirdLayout}>
+        <Avatar icon={<Code />} backgroundColor="#1D232A" size={100} />
         <h1 style={styles.thirdLayout.heading}>Skills</h1>
         <div style={styles.thirdLayout.container}>
             <h3>Development</h3>

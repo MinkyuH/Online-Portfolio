@@ -1,44 +1,72 @@
 export default {
     firstLayout: {
-        backgroundColor: "#8AC5E2",
-        img: {
-            width: 70,
-            height: 70
-        },
-        text: {
-            display: "inline-flex"
-        },
-        icon: {
-            margin: 5
+        backgroundColor: "#1D232A",
+        color: "white",
+        padding: "20px 0",
+        container: {
+            width: 250,
+            border: "solid",
+            margin: "0 auto 20px",
+            padding: 20,
+            content: {
+                margin: 0
+            }
         }
     },
     secondLayout: {
-        backgroundColor: "#FFE9C9",
-        alt: {
-            fontFamily: "Nunito"
-        },
+        color: "#1D232A",
+        padding: "20px 0",
+        borderBottom: "solid",
         bodyText: {
             textAlign: "justify",
-            margin: "0 20px",
+            margin: "0 80px",
             paddingBottom: 15
         },
         heading: {
             padding: "15px 0"
+        },
+        container: {
+            content: {
+                display: "inline-block",
+                margin: "10px 20px",
+                text: {
+                    marginBottom: 0
+                }
+            }
         }
     },
     thirdLayout: {
+        color: "#1D232A",
+        padding: "30px 0 20px",
+        heading: {
+            paddingTop: 15
+        },
         container: {
             display: "inline-block",
             width: "33%",
             verticalAlign: "text-top"
-        },
-        heading: {
-            paddingTop: 15
         }
     },
-    fourthLayout:{
-        backgroundColor: "#FFD6D6",
-        paddingBottom: 1,
+    fourthLayout: {
+        backgroundColor: "#1D232A",
+        color: "white",
+        padding: "30px 0 20px",
+        heading: {
+            paddingTop: 15
+        },
+        container: {
+            margin: "0 auto",
+            lists: {
+                textAlign: "left",
+                item: {
+                    padding: "5px 0"
+                }
+            }
+        }
+    },
+    fifthLayout: {
+        color: "#1D232A",
+        padding: "30px 0 20px",
         textAlign: "center",
         container: {
             display: "inline-block",
@@ -54,6 +82,20 @@ export default {
             width: "96%",
             margin: "2%",
             padding: "1px 0"
+        }
+    },
+    sixthLayout: {
+        backgroundColor: "#1D232A",
+        color: "white",
+        padding: "20px 0",
+        container: {
+            content: {
+                display: "inline-block",
+                margin: "10px 30px",
+                text: {
+                    marginBottom: 0
+                }
+            }
         }
     }
 }

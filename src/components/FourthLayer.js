@@ -1,32 +1,35 @@
 import React from 'react';
-import Paper from 'material-ui/Paper';
-import trustPower from '../assets/trustPower.png';
-import qwiky from '../assets/qwiky.png';
+import Avatar from 'material-ui/Avatar';
+import Work from 'material-ui/svg-icons/action/work';
 import styles from '../styles/styles';
 
-export default()=> (
+export default () => (
     <div id="FourthLayer" style={styles.fourthLayout}>
-        <div>
-            <Paper zDepth={3} style={styles.fourthLayout.container}>
-                <h3>TrustPower Internship</h3>
-                <img src={trustPower} alt="trustPower" style={styles.fourthLayout.img}/>
-                <p>Mobile App created using Xamarin</p>
-            </Paper>
-            <a href="https://badboiz.github.io/frontend/">
-                <Paper zDepth={3} style={styles.fourthLayout.container}>
-                    <h3>Project Qwiky</h3>
-                    <img src={qwiky} alt="qwiky" style={styles.fourthLayout.img}/>
-                    <p>2017 Summer Of Tech Hackfest Project</p>
-                </Paper>
-            </a>
-        </div>
-        <div>
-            <Paper zDepth={3} style={styles.fourthLayout.youtube}>
-                <h3>Project Forgotten Saga</h3>
-                <iframe title="forgottenSaga" width="560" height="315" src="https://www.youtube.com/embed/vHnKufw_vBg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <p>RPGXP Game Engine, Ruby script</p>
-            </Paper>
-        </div>
+        <Avatar icon={<Work />} backgroundColor="white" color="#1D232A" size={100} />
+        <h1 style={styles.fourthLayout.heading}>Experiences</h1>
+        <table style={styles.fourthLayout.container}>
+            <tr>
+                <td>
+                    <h2>Trustpower - Software Development Intern (December 2017 - February 2018)</h2>
+                    <ul style={styles.fourthLayout.container.lists}>
+                        <li style={styles.fourthLayout.container.lists.item}>Cross-Platform Mobile App (Xamarin Native), built for the project "Monster"</li>
+                        <li style={styles.fourthLayout.container.lists.item}>Exposure to Microsoft Azure and Hockey App for Continuous Integration and Deployment</li>
+                        <li style={styles.fourthLayout.container.lists.item}>Exposure to Agile Scrum project methodology</li>
+                        <li style={styles.fourthLayout.container.lists.item}>Responsible for API design and development, as well as database implementation</li>
+                        <li style={styles.fourthLayout.container.lists.item}>Tools used: C#, Xamarin, Microsoft Azure, SQL, Jira</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Albany Carl's Jr - Backhand Staff Full Time (November 2015 - February 2016)</h2>
+                    <ul style={styles.fourthLayout.container.lists}>
+                        <li style={styles.fourthLayout.container.lists.item}>Performed friendly customer service</li>
+                        <li style={styles.fourthLayout.container.lists.item}>Performed all duties within a fast-paced/high-pressured team environment</li>
+                        <li style={styles.fourthLayout.container.lists.item}>Responsible for greeting customers and drive-through orders</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
-
-)
+);

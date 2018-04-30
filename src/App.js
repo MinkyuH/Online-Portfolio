@@ -4,6 +4,8 @@ import FirstLayer from './components/FirstLayer';
 import SecondLayer from './components/SecondLayer';
 import ThirdLayer from './components/ThirdLayer';
 import FourthLayer from './components/FourthLayer';
+import FifthLayer from './components/FifthLayer';
+import SixthLayer from './components/SixthLayer';
 
 class App extends Component {
     render() {
@@ -13,6 +15,8 @@ class App extends Component {
                 <SecondLayer/>
                 <ThirdLayer/>
                 <FourthLayer/>
+                <FifthLayer/>
+                <SixthLayer/>
                 <footer><span>Minkyu Ham &#169; {(new Date()).getFullYear()}</span></footer>
             </div>
         );
