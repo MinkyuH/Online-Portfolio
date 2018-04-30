@@ -4,7 +4,7 @@ export default {
         color: "white",
         padding: "20px 0",
         container: {
-            width: 250,
+            width: 400,
             border: "solid",
             margin: "0 auto 20px",
             padding: 20,
@@ -33,6 +33,14 @@ export default {
                     marginBottom: 0
                 }
             }
+        }
+    },
+    educationLayout: {
+        backgroundColor: "#1D232A",
+        color: "white",
+        padding: "30px 0 20px",
+        heading: {
+            padding: "15px 0"
         }
     },
     thirdLayout: {
@@ -87,7 +95,10 @@ export default {
     sixthLayout: {
         backgroundColor: "#1D232A",
         color: "white",
-        padding: "20px 0",
+        padding: "30px 0 20px",
+        heading: {
+            padding: "15px 0 0"
+        },
         container: {
             content: {
                 display: "inline-block",

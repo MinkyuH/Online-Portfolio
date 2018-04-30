@@ -2,7 +2,7 @@ import React from 'react';
 import {Avatar, Paper} from 'material-ui';
 import Cloud from 'material-ui/svg-icons/file/cloud';
 import trustPower from '../assets/trustPower.png';
-import qwiky from '../assets/qwiky.png';
+import bidmon from '../assets/bidmon.png';
 import styles from '../styles/styles';
 
 export default () => (
@@ -17,8 +17,8 @@ export default () => (
             </Paper>
             <a href="https://badboiz.github.io/frontend/" target="_blank" rel="noopener noreferrer">
                 <Paper zDepth={3} style={styles.fifthLayout.container}>
-                    <h3>Project Qwiky</h3>
-                    <img src={qwiky} alt="qwiky" style={styles.fifthLayout.img}/>
+                    <h3>Project Bidmon</h3>
+                    <img src={bidmon} alt="bidmon" style={styles.fifthLayout.img}/>
                     <p>2017 Summer Of Tech Hackfest Project</p>
                 </Paper>
             </a>

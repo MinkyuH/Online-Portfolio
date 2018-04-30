@@ -6,6 +6,7 @@ import ThirdLayer from './components/ThirdLayer';
 import FourthLayer from './components/FourthLayer';
 import FifthLayer from './components/FifthLayer';
 import SixthLayer from './components/SixthLayer';
+import EducationLayer from './components/EducationLayer';
 
 class App extends Component {
     render() {
@@ -13,6 +14,7 @@ class App extends Component {
             <div className="App">
                 <FirstLayer/>
                 <SecondLayer/>
+                <EducationLayer/>
                 <ThirdLayer/>
                 <FourthLayer/>
                 <FifthLayer/>

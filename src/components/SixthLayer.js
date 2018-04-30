@@ -1,10 +1,12 @@
 import React from 'react';
 import Avatar from 'material-ui/Avatar';
+import Phone from 'material-ui/svg-icons/communication/phone';
 import {EmailIcon, LinkedInLogo, GitHubLogo} from '../components/icons';
 import styles from '../styles/styles';
 
 export default () => (
     <div id="SixthLayer" style={styles.sixthLayout}>
+        <Avatar icon={<Phone />} backgroundColor="white" color="#1D232A" size={100} />
         <h1 style={styles.sixthLayout.heading}>Contact</h1>
         <p>Want to find out more about me?</p>
         <div style={styles.sixthLayout.container}>
